@@ -20,3 +20,19 @@ body {
     transform: scale(1.2);
 }
 
+.results {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 2em;
+    justify-items: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.result-score {
+    margin-left: .1rem;
+    font-size: 1rem;
+    color: red;
+}
+
